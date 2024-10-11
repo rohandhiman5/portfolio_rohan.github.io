@@ -1,0 +1,540 @@
+
+
+        *{
+            margin:0px;
+            padding:0px;
+
+        }
+
+        body{
+            background-color: rgb(4, 4, 40);
+        font-family: 'Poppins',sans-serif;
+        color:white;
+        }
+
+        .left{
+            color: white;
+            margin:20px;
+        }
+
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+           align-items: center;
+           height: 80px;
+           background-color: rgb(10, 10, 56);
+        
+           /* background-color: red; */
+        }
+
+        nav ul{
+            display: flex;
+            justify-content:center;
+            /* align-items: center; */
+            margin: 0px 23px;
+
+        }
+        
+        nav ul li{
+            list-style: none;
+            margin: 0px 23px;
+        }
+        
+
+        .right{
+            color:white;
+            
+        }
+
+        .left{
+            font-size:1.5em;
+        }
+
+        .firstsection{
+
+            display:flex;
+            justify-content: space-around;
+            margin: 65px 0 ;  
+
+        
+        }
+        
+
+        .firstsection> div{
+
+    width: 40%;
+
+
+    }  
+        .leftsection{
+          
+            font-size:2.4rem;
+            margin :60px 0px;
+            
+        }
+
+        .rightsection img{
+            width:80%;
+           
+            
+        }
+        
+        
+        .purple{
+            color: rgb(212, 60, 212);
+        }
+         ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover{
+            color: rgb(154, 154, 183);
+            font-size:1.02em;
+
+
+        }
+
+        #element{
+            color: rgb(209, 138, 209);
+        }
+
+        .secondsection{
+            max-width: 80vw;
+            margin:auto;
+
+        }
+        .knowmore{
+            
+            text-align: center;
+            color: grey;
+           
+        }
+
+        .secondsection  > h1{
+            text-align: center;
+
+        }
+
+        .additional{
+            display:flex;
+            margin:15px 0px;
+
+
+        }
+
+        .downloadcv{
+            margin:10px 0px;
+            font-size:0.5em;
+            border: solid;
+            width:25%;
+            margin: 10px;
+            text-align: center;
+            border-radius: 100px;
+
+
+        }
+        
+        .downloadcv:hover{
+            background-color: rgb(80, 77, 77);
+            cursor: pointer;
+        }
+
+        .connectme{
+            margin:10px 0px;
+            font-size:0.5em;
+            border: solid;
+            width:25%;
+            margin: 10px;
+            text-align: center;
+            border-radius: 100px;
+            background-color: rgb(34, 37, 45);
+
+
+        }
+
+        .connectme:hover{
+            background-color: rgb(80, 77, 77);
+            cursor: pointer;
+        }
+
+        .socialmedia{
+            display: flex;
+            justify-content: center;
+            width: 59%;
+            gap: 1rem;
+
+
+        }
+
+        .icon{
+         height: 2rem;   
+         /* background-color:rgb(84, 74, 74); */
+         /* background-image-color:grey; */
+         cursor: pointer;
+        }
+        /* .icon {
+            filter:brightness(20%);
+            filter: contrast(40%);
+            /* filter:invert(20%); 
+        } */
+
+        .icon:hover{
+            filter:contrast(10%);
+
+        }
+
+        .rohan{
+            width:360px;
+            height:360px;
+            /* filter:grayscale(100%) */
+            margin:50px 20px;
+            border-radius :50%;
+            display:flex;
+        }
+
+
+        .about{
+            color:white;
+            display:flex;
+            justify-content: space-around;
+
+        }
+
+        .about_details{
+            width:55%;
+            justify-content: space-around;
+        }
+
+
+
+        .about .image{
+            display:flex;
+            width: 40%;
+        /* filter: opacity(0)  */
+        }
+
+        .exp_details{
+            display: flex;
+    width: 100%;
+    height: 50%;
+    gap:19px;
+    margin:20px 0px;
+        }
+
+        .Education{
+            width:40%;
+            padding:20px;
+            text-align:center;
+            border:solid;
+            margin:10px 0px;
+            border-radius:10%;
+            border-color:rgb(129, 127, 136);
+            background-color: rgb(3, 3, 47);
+            
+        }
+
+        .Experience{
+            width:40%;
+            padding:20px;
+            text-align:center;
+            border:solid;
+            margin:10px 0px;
+            border-radius:10%;
+            border-color:rgb(129, 127, 136);
+            background-color: rgb(3, 3, 47);
+            
+        }
+
+        .sub_exp{
+            margin: 11px;;
+           
+        }
+
+        .sub_edu{
+            margin:11px;
+        }
+
+        .text_details{
+            height:fit-content;
+            padding:20px;
+            margin:50px 20px;
+            color:rgb(99, 106, 181);
+        }
+
+
+
+        .project_details{
+
+            display: flex;
+            /* width: 80%; */
+            justify-content: center;
+            flex-direction: column;
+            /* background-color: red; */
+            height:650px;
+            
+
+
+
+        }
+
+        .project_conatiner{
+            display: flex;
+            margin:15px 50px;
+            justify-content: space-around;
+            height: 85%;
+        }
+
+        .siddhi{
+            width:35%;
+            padding: 20px;
+            border:solid;
+            border-width: 1.1px;
+            border-radius: 5%;
+        }
+
+        .siddhi img{
+            width: 95%;
+    height: 300px;
+
+    border-radius:8%;
+            
+
+        }
+
+        .cynaptics{
+            width:35%;
+            padding: 20px;
+            border:solid;
+            border-width: 1.1px;
+            border-radius: 5%;
+        }
+        
+        .cynaptics img{
+            width:95%;
+            height: 300px;
+            border-radius:8%;
+        }
+        
+        .Project1{
+            height: 55px;
+            color:White;
+            margin: 20px 0px;
+            text-align: center;
+            font-size:1.2em;
+
+
+        }
+
+        button{
+            all:unset;
+        }
+        .project2{
+            height: 55px;
+            color:white;
+            margin: 20px 0px;
+            text-align: center;
+            font-size:1.2em;
+        }
+
+        .button1,.button2{
+            /* display:inline; */
+            margin:auto;
+            /* transform: translateX(30px); */
+            width: 25%;
+            height: 30%;
+            height: 70px;
+           text-align:center;
+           border: solid 1.2px;
+           border-radius:10%;
+        }
+
+        .button1:hover ,.button2:hover{
+            background-color: rgb(28, 30, 38);
+        }
+
+        .button1 p,.button2 p{
+            padding:22px;
+        }
+
+
+
+        .Exp_box{
+            background-color: red;
+            height: 650px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+
+        .exp_details{
+            display: flex;
+        }
+
+        .web,.machinelearning{
+            
+            width: 45%;
+            margin:20px 40px;
+            border:solid 1.2px;
+            border-radius: 3%;
+        }
+
+        .web h1,.machinelearning h1{
+            font-weight: 600;
+            font-size: 1.75rem;
+            margin-bottom:15px;
+        }
+
+        
+        /* .machinelearning{
+            width: 45%;
+            margin: 20px 40px;
+        }
+ */
+
+        .skill_web{
+            display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+        }
+
+
+
+        
+#experience {
+    position: relative;
+  }
+  
+  .experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  
+  .experience-details-container  ,.experience-details-container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .article-container ,.article-container2{
+    padding-bottom: 40px;
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+    /* border-radius: 7%; */
+  }
+  
+  article{
+    display: flex;
+    width: 10rem;
+    /* justify-content: space-around; */
+    gap: 0.5rem;
+  }
+  
+  article .icon {
+    cursor: default;
+  }
+  
+  /* PROJECTS SECTION */
+  
+  .about-containers{
+    display: flex;
+  }
+
+  .details-container1,.details-container2{
+    width:30%;
+    margin-left:200px;
+    margin-top:20px;
+    border:solid 2px;
+    border-radius: 5%;
+    padding:4px;
+    
+  }
+
+  .details-container1:hover,.details-container2:hover{
+    background-color: rgb(24, 2, 40);
+    font-size:1.02em
+
+
+  }
+  /* .details-container1 h1:hover ,.details-container2 h1:hover{
+    color: rgb(19, 128, 0);
+  } */
+
+  /* .details-container2{
+    width: 30%;
+    margin-left: 200px;
+    margin-top: 20px;
+    border: solid 2px;
+    border-radius: 5%;
+    padding: 4px;
+  }    */
+
+
+  #contact {
+    color:aqua;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 70vh; */
+  }
+  
+  .contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: (250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+  }
+  
+  .contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+  }
+  
+  .contact-info-container p {
+    font-size: larger;
+  }
+  
+  .contact-icon {
+    cursor: default;
+  }
+  
+  .email-icon {
+    height: 2.5rem;
+  }
+  
+  /* FOOTER SECTION */
+  
+  footer {
+    /* height: 26vh; */
+    margin: 0 1rem;
+    /* margin-bottom:20px; */
+  }
+  
+  footer p {
+    text-align: center;
+    padding:20px;
+  }
+
+  .section__text__p1{
+    text-align: center;
+    color:grey;
+    font-size:1.2em;
+  }
